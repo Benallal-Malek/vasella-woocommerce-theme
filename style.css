@@ -1,0 +1,21 @@
+/*
+Theme Name: Vasella
+Description: A responsive classic theme for an artisan vase shop, with WooCommerce and Advanced Custom Fields support.
+Version: 1.0.1
+Requires at least: 6.4
+Requires PHP: 7.4
+Text Domain: vasella
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.content-body > * + * { margin-top: 1em; }
+.content-body .aligncenter { margin-inline: auto; }
+.content-body .alignwide, .content-body .alignfull { max-width: 100%; }
+.wp-caption { max-width: 100%; }
+.wp-caption-text, .gallery-caption { font-size: .9em; color: var(--muted); }
+.bypostauthor { border-inline-start: 2px solid var(--line); }
+.entry-list { display: grid; gap: 20px; margin-bottom: 24px; }
+.entry-list article { padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.entry-list h2 { font-family: var(--serif); font-size: 26px; font-weight: 400; margin-bottom: 5px; }
+.comment-list { padding-inline-start: 22px; }
